@@ -1,0 +1,19 @@
+.HeaderBAR{
+    position: relative;
+   
+
+
+}
+.text{
+   text-align: center;
+   position: relative;
+   padding: 16px;
+ font-size: medium;
+ font-weight: 400;
+   background-color: rgb(163, 215, 245);
+  
+}
+.headerlink{
+  text-decoration: underline;
+  color: blue;
+}

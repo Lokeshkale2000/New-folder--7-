@@ -1,0 +1,103 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: rgb(232, 237, 239);
+  position: sticky;
+  top: 0; 
+  z-index: 1000; 
+}
+
+/* Logo and icon styling */
+.icon {
+  height: 27px;
+  width: 27px;
+  margin-right: 7px;
+}
+
+.iconcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  margin-left: 140px;
+}
+
+/* Navbar links styling */
+.navbar-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #070bf1; /* Blue color on hover */
+}
+
+/* Login header link */
+.loginheader {
+  font-size: 20px;
+  font-weight: 500;
+margin-left: 290px;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Get Trello button styling */
+.Get {
+  color: whitesmoke;
+  background-color: #070bf1;
+  padding: 24px 25px;
+  margin-right: 90px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.Get:hover {
+  background-color: #0000e1;
+}
+
+/* List styling */
+.link {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+  }
+
+  .navbar-links {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .loginheader {
+      margin-left: 0;
+  }
+
+  .Get {
+      margin: 10px 0;
+  }
+}
