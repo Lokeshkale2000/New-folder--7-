@@ -1,0 +1,45 @@
+
+.workspace-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(29,33,37);
+    padding: 5px 70px;
+    color: #9AA8B7;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #9AA8B7;
+    font-weight: 500;
+  }
+  
+  .navbar-right {
+    display: flex;
+    margin-right: 200p;
+  }
+  
+  .search-input {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 50px;
+  }
+  .Logout-btn{
+    background-color: red;
+    margin-right: 150px;
+  }

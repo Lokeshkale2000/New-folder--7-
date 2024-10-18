@@ -1,24 +1,21 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css'
+import Home from './pages/home/Home'
+import Login from './pages/login/Login'
+import Registration from './pages/registration/Registration'
+import Workpages from './pages/workpages/Workpages';
 
-import './App.css';
-//import Header from './components/header/Header';
-//import Navbar from './components/navbar/Navbar';  // Case-sensitive path
-//import Loginfild from './components/watchvideo/Loginfield';
-import Login from './pages/login/Login';
-import Registration from './pages/registration/Registration';
-
-
-
-function App() {
+const App = () => {
   return (
-  
-      <>
-
- <Login></Login>
- <Registration></Registration>
-      </>
-     
-   
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} /> 
+        <Route path="/login" element={<Login />}/>
+        <Route path="/register" element={<Registration />}/>
+        <Route path="/workpage" element={<Workpages />}/>
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

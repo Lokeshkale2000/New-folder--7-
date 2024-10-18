@@ -1,6 +1,6 @@
-.main-container {
+.main-container1 {
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 800px;
     padding: 90px 80px;
     gap:50px;
@@ -35,8 +35,9 @@
 }
 
 .textcontainer {
-    width: 40%;
+    width: 45%;
     margin: 5px 30px;
+    padding: 0 30px;
   
     
 }
@@ -59,13 +60,13 @@
 .signlink{
     margin-left: 14px;
    font-size: larger;
-   padding: 8px;
+   padding: 1px;
    background-color: rgb(28, 81, 225);
    color: whitesmoke;
 
 }
 
-/* Responsive styles */
+
 @media (max-width: 768px) {
     .main-container {
         flex-direction: column;

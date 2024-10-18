@@ -1,11 +1,11 @@
 import React from "react";
 import "./Loginfield.css";
-//import white from '../../images/white.svg'
+import white from '../../images/white.svg'
 
 const Loginfield = () => {
   return (
     <div className="body"> 
-    <div className="main-container">
+    <div className="main-container1">
       <div className="textcontainer">
         <h1 className="h1">Trello brings all your<br></br> tasks, teammates, and <br></br>tools together</h1>
         <h3 className="h4">Keep everything in the same place—even if your team isn’t.</h3>

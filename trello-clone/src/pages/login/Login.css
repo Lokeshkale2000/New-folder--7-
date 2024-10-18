@@ -1,14 +1,17 @@
 .main-container {
-    width: 380px;
-    position: relative;
-    margin:  200px auto;
+    width: 340px;
+    
+    margin:  90px auto;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     text-align: center;
   }
-  
+  .maintext{
+    font-weight: 500;
+    font-size: medium;
+  }
   .login-form div {
     margin-bottom: 15px;
     text-align: left;
@@ -53,4 +56,10 @@
   .login-links a:hover {
     text-decoration: underline;
   }
-  
+  .bottom-text{
+    font-size: small;
+    color: black;
+  }
+  .Atlas{
+    color: rgb(114, 114, 124);
+  }
