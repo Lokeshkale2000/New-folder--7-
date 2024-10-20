@@ -5,6 +5,7 @@ const cors = require('cors');
 const authRoutes = require('./routes/authRoutes'); 
 const workboardRoutes = require('./routes/workboardRoutes'); 
 const boardRoutes = require('./routes/boardRoutes');
+const listsRoutes = require("./routes/lists");
 
 // Load environment variables
 dotenv.config();
@@ -23,6 +24,7 @@ mongoose
 app.use('/api/auth', authRoutes);
 app.use('/api/workboards', workboardRoutes);
 app.use('/api/auth/boards', boardRoutes);
+app.use("/api/lists", listsRoutes);
 
 
 const PORT = process.env.PORT || 5000;

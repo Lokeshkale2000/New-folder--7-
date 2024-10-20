@@ -1,0 +1,23 @@
+
+
+.list-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 250px; /* Set a minimum width for list cards */
+  }
+  
+  .card-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red; /* Style for error messages */
+  }
+  
