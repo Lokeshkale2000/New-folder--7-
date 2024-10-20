@@ -1,0 +1,49 @@
+
+.footer-container {
+    background-color: #172B4D;
+    padding:  3px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    color: white; }
+
+
+.footer-section {
+  
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+
+.footer-section h4 {
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+
+
+.footer-section p {
+    font-size: 14px;
+    color: #b0bec5;
+}
+
+
+.footer-section-1 {
+    margin-left: 180px;
+}
+
+.footer-section-4 {
+    margin-right: 180px;
+}
+
+
+hr {
+    width: 94%;
+    border: 0.5px solid #39424E;
+}
+
+
+

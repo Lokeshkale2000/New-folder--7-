@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate } from 'react-router-dom';
 import './Registration.css';
 
 function Registration() {
@@ -13,13 +13,12 @@ function Registration() {
   const [success, setSuccess] = useState('');
   const navigate = useNavigate(); // Initialize useNavigate
 
-  // Handle input changes
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
@@ -46,9 +45,9 @@ function Registration() {
 
       if (response.ok) {
         setSuccess('Registration successful!');
-        setFormData({ email: '', password: '', confirmPassword: '' }); // Reset form
+        setFormData({ email: '', password: '', confirmPassword: '' }); 
         setTimeout(() => {
-          navigate('/login'); // Redirect to login page after 2 seconds
+          navigate('/login'); 
         }, 2000);
       } else {
         setError(data.message || 'Registration failed.');
